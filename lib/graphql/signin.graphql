@@ -1,0 +1,8 @@
+mutation SignIn($input: AuthInput!){
+  postLogin(input: $input) {
+    token,
+    user {
+      _id,email
+    }
+  }
+}

@@ -1,0 +1,8 @@
+query Streams {
+  getStreams {
+    _id,description,title,url,
+    author {
+      _id,email
+    }
+  }
+}

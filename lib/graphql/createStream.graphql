@@ -1,0 +1,8 @@
+mutation AddStream ($input: StreamInput!){
+  postAddStream(input: $input) {
+    _id,title,description,url,
+    author {
+      _id,email
+    }
+  }
+}

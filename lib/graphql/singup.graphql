@@ -1,0 +1,8 @@
+mutation PostRegister($input: AuthInput!){
+  postRegister(input: $input) {
+    user {
+      email,_id
+    },
+    token
+  }
+}   
