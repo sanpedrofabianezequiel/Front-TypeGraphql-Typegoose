@@ -21,7 +21,7 @@ import { useMemo } from "react";
      });
 
      const httpLink =  new HttpLink({
-         uri:'http://localhost:3000/graphql',
+         uri:'http://localhost:3001/graphql',
          credentials:'include',
      });
 
